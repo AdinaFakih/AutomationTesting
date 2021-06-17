@@ -159,6 +159,8 @@ act.perform()
 time.sleep(3)
 driver.find_element_by_xpath("/html/body/div[8]/div/div/div[3]/button").click() #click okay
 time.sleep(5)
+#give xpth of calender and send keys of exact month
+
 #checking password is avalible
 pwds_element = driver.find_element_by_xpath("/html/body/div[2]/div/div[2]/div/div[2]/form/div/div[1]/div[3]/input")
 print(pwds_element.is_displayed())
